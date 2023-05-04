@@ -5,8 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/customer.css">
 </head>
 <body>
-    Employee
+    <div class="navbar">
+        <a class="left" href="login.html">
+          <img src="asset/logo.png" />
+          <p>HOTEL</p>
+        </a>
+    
+        <div class="center">
+          <div class="logo"><a href="Employee.html">EMPLOYEE</a></div>
+          <div class="navlink">
+            <router-link class="nav-page" ><a href="Employee-Add.html">Add</a></router-link>
+            <router-link class="nav-page" ><a href="Employee-Update.html">Update</a></router-link>
+            <router-link class="nav-page" ><a href="Employee-Delete.html">Delete</a></router-link>
+          </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="form">
+            <input type="text" class="form-field animation a3" placeholder="Search">
+            <button class="animation a6"><a>Search</a></button>
+          </div>
+    </div>
 </body>
 </html>
